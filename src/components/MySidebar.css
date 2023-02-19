@@ -1,0 +1,42 @@
+.sidebar {
+     /* set a fixed width for the sidebar */
+    position: fixed; /* make the sidebar position fixed */
+    top: 0; /* position the sidebar at the top of the page */
+    left: 0; /* position the sidebar at the left side of the page */
+    padding: 20px; /* add padding to the sidebar for better readability */
+    padding-left: 1rem !important;
+    background-color: #343a40; /* set a dark background color */
+  }
+  
+  h3
+  {
+    color: grey;
+    font-weight: 400 !important;
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+
+  .nav-link {
+    text-align: center;
+    color: grey !important;
+    border-radius: 0.4rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: white !important;
+  }
+  
+  .nav-link.active {
+    background-color: #007bff;
+    color: white !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 0.4rem;
+  }
+  
+  
+  
+  
+  

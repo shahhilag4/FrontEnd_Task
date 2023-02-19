@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Roboto-Medium";   /*Can be any text*/
+  src: local("Roboto-Medium"),
+    url("./components/Roboto/Roboto-Medium.ttf") format("truetype");
+}
+.row>*
+{
+  width: 50% !important;
+}
+
+.shadow
+{
+  box-shadow: 0 0.2rem 0.2rem rgba(0,0,0,0.15);
+}
+
+.sidebar {
+  width: 20% !important;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar {
+  width: inherit !important;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+.icon
+{
+  width: inherit;
+  margin: 0 0 0 0%;
+}
+
+.alignment
+{
+  float: right;
+}

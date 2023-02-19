@@ -1,0 +1,119 @@
+.d-flex
+{
+    flex-direction: column;
+}
+
+/* .message-right {
+  align-self: flex-end;
+  margin-left: 80%;
+} */
+
+.message-left {
+  justify-content: flex-end;
+  margin-left: 80%;
+}
+.adjustheight {
+    height: 80vh;
+    margin-top:2.5rem ;
+    width:140%;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo1 {
+    margin: 0;
+    display:inline-block;
+  }
+  
+  .chat-container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .chatbox {
+    padding: 20px;
+    overflow-y: auto;
+    height:20rem;
+  }
+  
+  /* .chatbox::-webkit-scrollbar {
+    display: none;
+  } */
+
+  .message-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .texting
+  {
+    height:2rem !important;
+  }
+  
+  .message {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    max-width: 45rem;
+    word-wrap: break-word;
+    line-height: 1.5;
+  }
+
+  
+  .message1 {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    max-width: 80%;
+    word-wrap: break-word;
+    line-height: 1.5;
+  }
+  
+  .texting {
+    width: 100%;
+    height: 3rem !important;
+    overflow: hidden;
+    resize: none;
+    border-radius: 20px !important;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f8;
+  }
+  
+  .btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .chat-container
+  {
+    height: 30rem;
+    background: linear-gradient(to bottom right, #ffffff 10%, #6699ff 220%);
+  }
+  
